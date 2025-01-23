@@ -18,3 +18,18 @@ This repository is part of the "Full Stack Web Development" course, where we are
 3. Database Schema Design: Define structured data models using MongoDB.
 4. Backend Setup: Implement server-side logic using Node.js and Express.js.
 5. Authentication: Secure login and registration functionalities
+
+
+### Created a structured folder hierarchy for the project.
+
+1. Set up a React app for the frontend.
+2. Set up a Node.js server for the backend.
+3. Configured Tailwind CSS for streamlined styling.
+4. Added optional extensions for improving development efficiency.
+5. Built a functional and styled Login Page for the frontend. ⁠
+
+
+* Set up dedicated folders for organizing backend code effectively.
+* Initialized and configured a Node.js server to handle API requests.
+* Connected the application to MongoDB to store and manage data.
+* Implemented basic error handling to ensure smooth server operation.
