@@ -32,4 +32,4 @@ process.on("unhandledRejection", (err) => {
     server.close(() => {
         process.exit(1); // Exit with failure code
     });
-});
+})
