@@ -33,3 +33,15 @@ This repository is part of the "Full Stack Web Development" course, where we are
 * Initialized and configured a Node.js server to handle API requests.
 * Connected the application to MongoDB to store and manage data.
 * Implemented basic error handling to ensure smooth server operation.
+
+
+# Milestone 5 -Adding SignUp Page
+
+1. Created a Sign-Up Page in React.
+2. Implemented form validation for:
+      Name (required)
+      Email (valid format required)
+      Password (minimum 2 characters)
+      Password Confirmation (must match password)
+
+4. Used React Router for navigation.
