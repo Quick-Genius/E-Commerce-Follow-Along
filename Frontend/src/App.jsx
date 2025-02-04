@@ -19,9 +19,10 @@
 // export default App;
 
 import { BrowserRouter , Routes , Route} from "react-router-dom";
-import { LoginPage , SignupPage } from "./Routes.jsx";
+import { LoginPage , SignupPage, Home , CreateProduct } from "./Routes.jsx";
 import './App.css' ;
-import Home from "./Pages/Home.jsx";
+// import Home from "./Pages/Home";
+// import CreateProduct from "./Pages/createProduct.jsx";
 function App (){
   return (
     <BrowserRouter>
@@ -29,6 +30,7 @@ function App (){
       <Route path="/login" element={<LoginPage/>} />
       <Route path="/signup" element={<SignupPage/>} />
       <Route path="/" element={<Home/>} />
+      <Route path="/create-product" element={<CreateProduct/>} />
 
     
     </Routes>

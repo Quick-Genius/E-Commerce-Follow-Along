@@ -2,7 +2,7 @@ import  { useState, useEffect } from "react";
 import Product from "../Components/auth/Product";
 import { productData } from "../static/data";
 
-export default function Home() {
+function Home() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -23,3 +23,5 @@ export default function Home() {
     </>
   );
 }
+export default Home;
+

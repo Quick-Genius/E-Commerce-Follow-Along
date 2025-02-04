@@ -284,3 +284,14 @@ Develop a product card component to display essential product details.
 Render multiple product cards dynamically using props and mapping.
 
 Create an engaging homepage layout with proper structuring.   
+
+# Milestone 9: Product Form Creation
+
+# Overview 
+
+In this milestone, we created a frontend form for adding product details, including multiple images. This form allows users to input essential product information, which will be stored in the database and displayed on the products homepage.
+
+Features Implemented
+✅ Created a product input form
+✅ Enabled multiple image uploads
+✅ Connected the form to the backend for data storage
