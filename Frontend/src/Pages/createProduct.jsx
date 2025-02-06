@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect , useState } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import axios from "axios";
 
@@ -52,7 +52,7 @@ const CreateProduct = () => {
     });
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v2/product/create-product",
+        "http://localhost:3000/api/v2/product/create-product",
         formData,
         {
           headers: {
