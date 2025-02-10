@@ -12,6 +12,7 @@ function App (){
       <Route path="/signup" element={<SignupPage/>} />
       <Route path="/" element={<Home/>} />
       <Route path="/create-product" element={<CreateProduct/>} />
+      <Route path="/create-product/:id" element={<CreateProduct />} />
       <Route path="/my-product" element={<MyProducts/>} />
 
     
