@@ -2,7 +2,7 @@ import LoginPage from "./Pages/Login";
 import SignupPage from "./Pages/SignUp";
 import Home from "./Pages/Home";
 import CreateProduct from "./Pages/createProduct";
-import MyProducts from "./Pages/myProduct";
+import MyProducts from "./Pages/myProduct.jsx";
 import Cart from "./Pages/cart.jsx";
 import ProductDetails from "./Pages/productDetails.jsx";
 
