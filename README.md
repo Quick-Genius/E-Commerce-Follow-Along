@@ -510,17 +510,12 @@ Includes links to Home, Products, Cart, and Profile.
 
 Displays login/logout options dynamically based on authentication status.
 
-
 # Milestone 16 - Ecommerce Follow-Along Project
-
-## Overview
-
+Overview
 This milestone enhances the Ecommerce project by introducing a 'More Info' button for every product, allowing users to view additional product details with ease. The addition of this feature improves user engagement and helps customers make more informed purchase decisions.
 
-## Features Implemented
-
-### More Info Button:
-
+Features Implemented
+More Info Button:
 Added to each product listing.
 
 Allows users to view additional product details when clicked.
@@ -529,18 +524,71 @@ Enhances the user experience by providing quick access to important product info
 
 Designed to be responsive and accessible across devices.
 
-### Enhanced Product Display:
-
+Enhanced Product Display:
 Products are now presented with a cleaner layout.
 
 Improved UI/UX for better readability and navigation.
 
 Optimized performance for faster loading times.
 
-## Security & Authentication:
-
+Security & Authentication:
 Users must be logged in to access full product details.
 
 Secure handling of user data with JWT-based authentication.
 
 Protected routes ensure that only authorized users can view certain details.
+
+# 📜 README - Milestone 17
+Feature: Console Logs for Cart Updates
+🚀 Overview
+In this milestone, we implemented console logging for the cart. Each time a product is added or removed, the updated cart state is displayed in the browser console for debugging purposes.
+
+🔧 Implementation Steps
+Introduced a method to log cart updates whenever the user interacts with the cart.
+Ensured logs provide details about the cart's current state, including items added or removed.
+Improved tracking of user actions for easier debugging.
+✅ Results
+Developers can monitor cart state changes in real time.
+Helps in identifying potential issues related to cart management.
+Ensures a smoother debugging experience during development.
+
+
+# 📜 README - Milestone 18
+Feature: Cart State Persisted in Console
+🚀 Overview
+This milestone enhances the logging mechanism by ensuring the cart state persists across page reloads and continues to be logged in the console.
+
+🔧 Implementation Steps
+Implemented a method to retain cart data even after the user refreshes the page.
+Ensured the cart's previous state is restored and displayed in the console.
+Improved logging by tracking both initial cart loading and subsequent updates.
+✅ Results
+The cart remains consistent even after a page refresh.
+Console logs now provide a complete history of cart interactions.
+Enhances debugging efficiency by keeping track of past and current cart states.
+
+
+
+# Ecommerce Website - Milestone 19: Functional Cart
+
+Overview
+
+In Milestone 19, the functional cart feature was implemented on the Ecommerce website. This milestone focuses on providing users with an intuitive and seamless way to add products to their cart and view them dynamically within the cart page. The cart updates in real-time as products are added, creating an interactive shopping experience.
+
+Key Features
+Add to Cart: Users can add products to their cart with a simple click, and the cart will automatically update to reflect the added item.
+Product Display in Cart: After adding items, the cart displays the products with relevant details such as product name, image, and price.
+Dynamic Cart: As products are added, the cart updates dynamically, ensuring that users can easily review their selections.
+
+
+# Ecommerce Website - Milestone 20: Profile Page
+
+Overview
+
+In Milestone 20, we have implemented a Profile Page for the Ecommerce website. This page allows users to view and manage their personal information, including their name, email, and order history. The profile page enhances the user experience by providing a dedicated space to access and update their account details.
+
+Key Features
+
+User Information Display: Users can view their profile information, such as their name and email address, on the profile page.
+Order History: A section where users can view their past orders, including order details like product names, quantities, and prices.
+Edit Profile: The profile page includes an option to edit personal information, offering users a way to keep their account details up to date.
