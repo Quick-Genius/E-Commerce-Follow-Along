@@ -678,3 +678,22 @@ Key Features
 User Information Display: Users can view their profile information, such as their name and email address, on the profile page.
 Order History: A section where users can view their past orders, including order details like product names, quantities, and prices.
 Edit Profile: The profile page includes an option to edit personal information, offering users a way to keep their account details up to date.
+
+# Milestone 21: Address Form Frontend Page
+
+# Learning Goals 🎯
+
+Build an address input form with country, city, address1, address2, zip code, and address type.
+
+Store input in state.
+
+Navigate to the form from the profile page.
+
+# Steps Completed 📝
+
+Created an address form with validation.
+
+Managed form state dynamically.
+
+Integrated navigation from the profile page.
+
