@@ -697,3 +697,20 @@ Managed form state dynamically.
 
 Integrated navigation from the profile page.
 
+
+# Milestone 22: Adding Address to User Collection
+
+# Overview
+
+In this milestone, we will create an API endpoint that receives an address from the frontend address form and stores it in the addresses array inside the user collection in our database.
+
+# Objectives
+
+Create an API endpoint to receive the address data.
+
+Validate and process the received data.
+
+Store the address in the addresses array of the respective user document in the database.
+
+Return a success response upon successful storage
+
