@@ -714,3 +714,48 @@ Store the address in the addresses array of the respective user document in the 
 
 Return a success response upon successful storage
 
+# Milestone 23: Place Order Functionality
+
+# Overview 🌟
+
+In this milestone, we will implement the Place Order functionality by adding a button in the cart, creating a select address page, and setting up the backend to store order details.
+
+# Learning Goals 🎯
+
+Add a Place Order button in the cart.
+
+Create a Select Address page for choosing a delivery address.
+
+Implement a backend API to fetch user addresses.
+
+Write a Mongoose schema for storing order details.
+
+# Milestone 24: Order Confirmation Page
+
+# Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+Create an Order Confirmation page.
+
+# Steps 📝
+
+# Frontend:
+
+Display Ordered Products: Show all items being purchased.
+
+Show Delivery Address: Display the selected address.
+
+# Cart Summary: Show total order value.
+
+Place Order Button: Add a button to confirm the order.
+
+Expected Outcome ✅
+
+Users can review their order details before confirming.
+
+A structured confirmation page enhances user experience.
+
+# Notes 📌
+
+This milestone helps in understanding order confirmation functionality in an e-commerce app.
