@@ -759,3 +759,20 @@ A structured confirmation page enhances user experience.
 # Notes 📌
 
 This milestone helps in understanding order confirmation functionality in an e-commerce app.
+
+# Milestone 25 - Place Order Button
+
+## Overview
+In this milestone, we implemented a "Place Order" button on the cart/checkout page. Clicking the button logs "Order Successful" in the console.
+
+## Key Features
+Added a "Place Order" button.
+
+Implemented a click event to log "Order Successful" in the console.
+
+## Testing Steps
+Navigate to the cart/checkout page.
+
+Click the "Place Order" button.
+
+Open the browser console and check for the message "Order Successful."
