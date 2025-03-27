@@ -8,6 +8,11 @@ const product= require('./controller/product')
 const path = require("path");
 const orders = require("./controller/order");
 
+const corsOptions = {
+    origin: 'http://localhost:5173', // Allow only your frontend origin
+    credentials: true, // Allow cookies and credentials
+  };
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
