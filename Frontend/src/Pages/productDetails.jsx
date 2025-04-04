@@ -18,7 +18,7 @@ export default function ProductDetails() {
 	useEffect(() => {
 		const fetchProduct = async () => {
 			try {
-				const response = await axios.get(`/api/v2/product/product/${id}`);
+				const response = await axios.get(`/api/v2/product/product/${id}`,{withCredentials: true});
 				console.log("Fetched product:", response.data.product);
 				setProduct(response.data.product); // Ensure correct state setting
 				setLoading(false);
@@ -56,6 +56,7 @@ export default function ProductDetails() {
 					userId: email,
 					productId: id,
 					quantity: quantity,
+					withCredentials: true,
 				}
 			);
 			console.log("Added to cart:", response.data);
@@ -97,7 +98,7 @@ export default function ProductDetails() {
 						<div className="w-full bsm:w-2/3 md:w-1/3 rounded-lg">
 							{product.images && product.images.length > 0 ? (
 								<img
-									src={`http://localhost:3000${product.images[0]}`}
+									src={`http://localhost:8000${product.images[0]}`}
 									alt={product.name}
 									className="w-full h-full object-contain bsm:object-cover"
 									style={{ maxHeight: "500px" }} // Adjust the max height as needed
