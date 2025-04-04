@@ -3,7 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import styles from "../../styles/styles";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { setemail } from "../../store/userAction";
+import { setemail } from "../../store/userActions";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 // Ensure axios sends cookies with requests
@@ -19,7 +19,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/api/v2/user/login", { email, password }, {withCredentials: true,});
+      const response = await axios.post("https://ecommerce-fa.onrender.com/api/v2/user/login", { email, password }, {withCredentials: true,});
       console.log(response.data);
       alert("Logged in successfully!");
       // Dispatch email to Redux state (token is now handled via cookies)
