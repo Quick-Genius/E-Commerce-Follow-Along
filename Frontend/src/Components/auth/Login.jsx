@@ -4,7 +4,7 @@ import styles from "../../styles/styles";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setemail } from "../../store/userAction";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { NavLink, useNavigate } from "react-router-dom"; // Import useNavigate
 
 // Ensure axios sends cookies with requests
 axios.defaults.withCredentials = true;
@@ -120,7 +120,7 @@ const Login = () => {
             </div>
 
             <div className={`${styles.noramlFlex} w-full`}>
-              <h4>Not have any account?</h4>
+              <NavLink to='/signup'>Not have any account?</NavLink>
             </div>
           </form>
         </div>

@@ -9,7 +9,7 @@ const path=require('path')
 const orders = require('./controller/order');
 
 const corsOptions = {
-    origin: 'https://e-commerce-follow-along-git-main-quick-genius-projects.vercel.app/', // Allow only your frontend origin
+    origin: 'https://e-commerce-follow-along-ten.vercel.app/', // Allow only your frontend origin
     credentials: true, // Allow cookies and credentials
   };
 
