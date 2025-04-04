@@ -766,11 +766,13 @@ This milestone helps in understanding order confirmation functionality in an e-c
 In this milestone, we implemented a "Place Order" button on the cart/checkout page. Clicking the button logs "Order Successful" in the console.
 
 ## Key Features
+
 Added a "Place Order" button.
 
 Implemented a click event to log "Order Successful" in the console.
 
 ## Testing Steps
+
 Navigate to the cart/checkout page.
 
 Click the "Place Order" button.
@@ -781,9 +783,11 @@ Open the browser console and check for the message "Order Successful."
 # Milestone 26 - Creating a GET Route in order.js
 
 ## Overview
+
 In this milestone, we created a GET route in order.js to fetch order details from the backend.
 
 ## Key Features
+
 Implemented a GET route in order.js.
 
 Allows retrieval of order data via API.
@@ -791,6 +795,7 @@ Allows retrieval of order data via API.
 Lays the foundation for displaying user orders in the frontend.
 
 ## Testing Steps
+
 Start the backend server.
 
 Send a GET request to the order endpoint using Postman or a browser.
@@ -798,38 +803,53 @@ Send a GET request to the order endpoint using Postman or a browser.
 Verify that order details are returned as a response.
 
 # README - Milestone 27: My Orders Page
+
 ### Overview
+
 In this milestone, we created a My Orders page for our frontend. This page fetches and displays all user orders by sending a GET request to the my-orders endpoint using the user’s email.
 
 ### Learning Goals 🎯
+
 Implement a frontend page to display user orders.
 Send a request to retrieve order data from the backend.
 Integrate the My Orders page into the navbar for easy access.
+
 ### Implementation Steps 📝
+
 Created a My Orders page.
 Sent a GET request to fetch user orders using their email.
 Displayed the retrieved orders on the page.
 Updated the navbar to include the My Orders page for better navigation.
+
 ### Submission Guidelines 📥
+
 Code pushed to the GitHub repository.
 Repository is publicly accessible.
 README updated with milestone details.
 Repository link submitted as per guidelines.
+
 ### 🚀 Milestone 27 completed successfully!
 
 # README - Milestone 28: Cancel Order Feature
+
 ### Overview
+
 In this milestone, we enhanced the My Orders page by adding a Cancel Order button and implemented a backend endpoint to handle order cancellations.
 
 ### Learning Goals 🎯
+
 Enable users to cancel placed orders.
 Implement order cancellation logic in the frontend and backend.
 Prevent the cancel button from appearing for already canceled orders.
+
 ### Implementation Steps 📝
+
 Added a Cancel Order button for each order in the My Orders page.
 Ensured the button is hidden for already canceled orders.
 Created a backend endpoint to receive an order-id, find the order, update its status to canceled, and save the changes.
+
 ### Submission Guidelines 📥
+
 Code pushed to the GitHub repository.
 Repository is publicly accessible.
 README updated with milestone details.
@@ -839,6 +859,7 @@ Repository link submitted as per guidelines.
 # Milestone 29 and 30 - PayPal Integration (Setup)
 
 In this milestone, we set up PayPal for online payments. First, create a PayPal developer account and log in to the PayPal Developer Dashboard. Navigate to Sandbox Accounts, create an account if needed, and save the User ID. Next, obtain and save your Client ID from the sandbox account. Update the order confirmation page to include two payment options: Cash on Delivery (COD) and Online Payment (PayPal). Implement radio buttons to toggle between these options, ensuring the PayPal button appears when Online Payment is selected. In the next milestone, we will integrate the PayPal payment buttons into the application.
+
 🚀 Milestone 29 and 30 completed successfully!
 
 # Milestone 31 - Ecommerce Follow-Along Project

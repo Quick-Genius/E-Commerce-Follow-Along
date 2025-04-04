@@ -57,7 +57,7 @@ const NavBar = () => {
                         <ul className="flex space-x-6">
                             <li>
                                 <NavLink
-                                    to="/"
+                                    to="/home"
                                     end
                                     className={({ isActive }) =>
                                         isActive
