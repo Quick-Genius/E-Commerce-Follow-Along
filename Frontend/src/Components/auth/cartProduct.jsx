@@ -22,7 +22,7 @@ export default function CartProduct({ _id, name, images, quantity, price }) {
         updateQuantityVal(newquantityVal);
 	};
     const updateQuantityVal = (quantity) => {
-        fetch('http://localhost:3000/api/v2/product/cartproduct/quantity', {
+        fetch('https://e-commerce-follow-along.onrender.com/api/v2/product/cartproduct/quantity', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

@@ -43,7 +43,7 @@ const OrderConfirmation = () => {
                     product: item.productId._id,
                     name: item.productId.name,
                     price: item.productId.price,
-                    image: item.productId.images.map(imagePath => `http://localhost:3000${imagePath}`),
+                    image: item.productId.images.map(imagePath => `https://e-commerce-follow-along.onrender.com${imagePath}`),
                     quantity: item.quantity,
                 }));
                 setCartItems(processedCartItems);
@@ -64,7 +64,7 @@ const OrderConfirmation = () => {
     const handlePlaceOrder = async (paymentType = 'cod', paypalOrderData = null) => {
         try {
             // setLoading(true);
-            // const response = await axios.post('http://localhost:3000/api/v2/orders/place-order', {
+            // const response = await axios.post('https://e-commerce-follow-along.onrender.com/api/v2/orders/place-order', {
             // Map cartItems to match the backend expected format
             const orderItems = cartItems.map(item => ({
                 product: item.product,
